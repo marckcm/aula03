@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soma de Três Valores</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
         $v3 = $_POST['valor3'];
         // Adição
         $resultado_adicao = $v1 + $v2 + $v3;
-        echo "Adição: $v1 + $v2 + $v3 = $resultado_adicao <br>";
+        echo "<strong>Adição: $v1 + $v2 + $v3 = <span class=\"resultado-adicao\">$resultado_adicao</span></strong> <br>";
     }
     ?>
 </body>

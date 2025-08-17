@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+
+input[type="number"] {
+  margin-bottom: 10px; /* Adiciona espaçamento entre os inputs */
+}
+
+input[type="text"] {
+  margin-bottom: 10px; /* Adiciona espaçamento abaixo do campo de nome */
+}
+
+input[type="submit"] {
+  background-color: #f44336; /* Cor de fundo vermelha */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #d32f2f;
+}
+
+.resultado-adicao {
+  font-size: 1.5em; /* Aumenta o tamanho da fonte */
+  font-weight: bold;
+  color: #000;
+}
+
+.resultado-acima {
+  color: green;
+  font-weight: bold;
+}
+
+.resultado-abaixo {
+  color: red;
+  font-weight: bold;
+}
